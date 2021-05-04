@@ -4,6 +4,8 @@ body {
     font-family: 'Noto Sans', sans-serif;
 }
 
+/* -----About Me Section--------- */
+
 .aboutMe {
     color: #fff;
     padding: 25px;
@@ -42,4 +44,11 @@ a {
 
 a:hover {
     color: #32B7B3;
+}
+
+/* ----My skills Section--------- */
+#mySkills{
+    color: #fff;
+    font-size: 10px;
+    padding: 3%;
 }
