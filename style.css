@@ -19,22 +19,22 @@ body {
 }
 
 .aboutMeTitle {
-    font-size: 40px;
-    font-weight: bolder;
+    /* font-size: 40px; */
+    /* font-weight: bolder; */
     color: #fff;
     border-bottom: 2px solid white;
     height: 1.5em;
-    width: 10em;
+    /* width: 10em; */
 }
 
 .aboutMeText {
-    font-size: 25px;
+    /* font-size: 25px; */
 }
 
 #linksSection {
     color: #fff;
     padding: 2%;
-    font-size: 18px;
+    /* font-size: 18px; */
 }
 
 a {
@@ -52,3 +52,6 @@ a:hover {
     font-size: 10px;
     padding: 3%;
 }
+
+
+/* JOSPEH CSS START */
