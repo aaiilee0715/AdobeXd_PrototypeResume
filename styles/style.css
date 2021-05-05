@@ -14,7 +14,8 @@ body {
 }
 
 .carlosImg {
-    width: 50%;
+    width: 70%;
+    max-width: 250px;
     height: auto;
 }
 
@@ -24,7 +25,7 @@ body {
     color: #fff;
     border-bottom: 2px solid white;
     height: 1.5em;
-    width: 10em;
+    width: 101%;
 }
 
 .aboutMeText {
@@ -34,7 +35,7 @@ body {
 #linksSection {
     color: #fff;
     padding: 2%;
-    font-size: 18px;
+    font-size: 1rem;
 }
 
 a {
@@ -47,8 +48,31 @@ a:hover {
 }
 
 /* ----My skills Section--------- */
-#mySkills{
+
+#mySkills {
     color: #fff;
     font-size: 10px;
     padding: 3%;
+}
+
+.icon-holder {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    /* width: 50px; */
+    height: 50px;
+    /* object-fit: scale-down; */
+    /* overflow: hidden; */
+    /* object-fit: unset; */
+}
+
+.icons {
+    /* max-width: 50px; */
+    height: 55px;
+}
+
+.contact-icons {
+    width: 40px;
+    height: auto;
+    margin-right: 5px;
 }
