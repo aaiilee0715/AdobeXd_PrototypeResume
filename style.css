@@ -42,6 +42,10 @@ a {
     color: #fff;
 }
 
+.nav-links {
+    color: gray
+}
+
 a:hover {
     color: #32B7B3;
 }
@@ -106,8 +110,21 @@ hr {
     height: 2px!important;
 }
 
+@media (min-width: 680px) {
+    .firstName, .lastName {
+        font-size: 4rem!important;
+    }
+}
+
+@media (min-width: 1000px) {
+    .firstName, .lastName {
+        font-size: 6rem!important;
+    }
+}
+
+
 .firstName, .lastName {
-    font-size: 6rem;
+    font-size: 3rem;
     line-height: .8;
     font-weight: 700
 }
@@ -130,6 +147,7 @@ hr {
     background: white;
     border-radius: 50px;
     padding: 40px;
+    /* margin-left: 30px; */
 }
 
 footer {
@@ -159,6 +177,10 @@ nav {
     padding-top: 100px!important;
 }
 
+.nav-pad2 {
+    padding-left: 100px!important;
+}
+
 .icon-name {
     font-size: .75rem;
 }
@@ -166,4 +188,22 @@ nav {
 .title {
     font-size: 2rem;
     letter-spacing: 3px;
+}
+
+.option2nav {
+    background: rgb(255, 255, 255);
+    width: 75px;
+    height: 100%;
+    position: fixed;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.16);
+}
+
+.link {
+    border-bottom: solid 2px rgb(228, 228, 228);
+    padding: 0px;
+    margin: 0px;
+}
+
+.link-text {
+    margin: 25px 0
 }
