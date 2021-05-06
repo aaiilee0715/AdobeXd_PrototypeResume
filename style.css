@@ -1,0 +1,36 @@
+body {
+    background-image: linear-gradient(#32B7B3, #125351);
+    background-repeat: no-repeat;
+    font-size: 100%;
+    font-family: 'Heebo', sans-serif;
+}
+
+.carlosImg {
+    width: 50%;
+    height: auto;
+}
+
+.aboutMe {
+    color: #fff;
+    padding: 3%;
+}
+
+.aboutMeTitle {
+    color: white;
+    border-bottom: 2px solid white;
+    height: 1.5em;
+}
+
+#linksSection, #mySkills {
+    color: #fff;
+    padding: 2%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #32B7B3;
+}
